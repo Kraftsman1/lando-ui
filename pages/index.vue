@@ -1,5 +1,7 @@
 <template>
-    <div>Lando UI</div>
+    <div>
+        <Header />
+        Lando UI</div>
 </template>
 
 <script lang="ts">
