@@ -1,4 +1,3 @@
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 
@@ -23,7 +22,7 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts", "nuxt-headlessui", "nuxt-icon"],
   googleFonts: {
     prefetch: true,
     preconnect: true,
